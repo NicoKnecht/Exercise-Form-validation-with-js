@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+   /* border: 1px red solid;*/
+}
+
+
+.mainWrapper{
+    display:flex;
+    flex-direction: column;   
+}
+.mainWrapper h1{
+    font-size: 1.5rem;   
+    
+}
+.mainWrapper .form{
+    display: flex;
+    flex-direction: column;
+}
+.mainWrapper .form .userWrapper,
+.mainWrapper .form .passwordWrapper,
+.mainWrapper .form .btnWrapper{
+    margin-top:0.5rem;
+}
+
+.mainWrapper .form .userWrapper .userLabel,
+.mainWrapper .form .passwordWrapper .passLabel{
+    display: inline-block;
+    width: 4.5rem;
+    font-weight: 600;
+}
+.mainWrapper .form .userWrapper .userInput,
+.mainWrapper .form .passwordWrapper .passInput{
+    border:solid #404040 2px;
+  
+}
+.mainWrapper .form .btnWrapper .btn{
+    margin-left:4.8rem;
+    border:solid #828282;
+    border-radius: 10px;
+    padding:0.4em 1em ;
+    font-weight: 600;
+    outline: 0;
+}
+.mainWrapper .form .btnWrapper .btn:active{
+    box-shadow: 0px 0px 5px #171717;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main class="mainWrapper">    
+            <h1>Ingreso al sistema</h1>
+            <form class="form"  action="" onsubmit="return validateForm();" method="" >   
+                <div class="userWrapper">       
+                    <label class="userLabel" for="user">Usuario:</label>
+                    <input class="userInput" id="user" type="text" name="usuario"  placeholder="usuario" >
+                </div> 
+                <div class="passwordWrapper">   
+                    <label class="passLabel " for="pass">Password:</label>
+                    <input class="passInput " id="pass" type="password" name="Pass" placeholder="password" autocomplete="off" >
+                </div> 
+                <div class="btnWrapper">   
+                    <button class="btn" id="submitBtn" type="submit" name="Enviar" value="" >Ingresar</button>
+                </div>    
+            </form>    
+        </main>    
+
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
